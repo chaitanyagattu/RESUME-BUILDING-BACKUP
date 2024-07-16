@@ -1,0 +1,65 @@
+/* offerings-section  */
+.offerings-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 40px;
+    background: url(https://beta.dayzero.vercel.app/_next/static/media/offerings-bg.6a211e60.png);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    margin: auto 0;
+    gap: 32px;
+  }
+  
+  @media (max-width: 768px){
+  .offerings-card-container {
+      grid-template-columns: 0;
+      padding: 40px;
+      gap: 40px;
+      box-shadow: 0 0 24px 0 rgba(181,199,220,.4);
+  }
+}
+
+  .offerings-section .offerings-heading {
+    text-align: center;
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -5px;
+  }
+  
+  h2{
+    margin: 0;
+  }
+  
+  .offerings-section .offerings-description {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #999;
+    letter-spacing: 1px;
+  }
+  
+  p{
+    margin: 0;
+  }
+  
+  .offerings-section .offerings-card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px;
+    background-color: #121212;
+    border: 1px solid #393939;
+    padding: 20px 40px;
+    border-radius: 16px;
+    gap: 40px 34px;
+    box-shadow: 0 0 32px 0 rgba(181,199,220,.4);
+  }
+  
+  .offerings-section .offerings-card-container .offerings-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

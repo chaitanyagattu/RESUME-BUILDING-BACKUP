@@ -1,0 +1,136 @@
+/* QnA_page.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Change background color to black */
+  color: #fff; /* Change text color to white */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  padding: 20px 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+}
+
+/* Divider Styles */
+.my-divider {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+/* Logos Section Styles */
+.logos {
+  padding: 20px 0;
+}
+
+.logo-box {
+  padding: 20px;
+  background-color: #000; /* Change background color of logo box to black */
+  color: #fff; /* Change text color of logo box to white */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-icon {
+  width: 80px; /* Adjust size as needed */
+  height: auto;
+}
+
+.logo-title {
+  margin-top: 10px;
+}
+
+.logo-description {
+  color: #666;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 20px 0;
+}
+
+.qna-box {
+  margin-top: 20px;
+}
+
+.qna-border {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.qna-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+/* Footer Styles */
+.footer {
+  padding: 20px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.bottom-text {
+  font-style: italic;
+  color: #666;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-text {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-image {
+    width: 40px;
+  }
+
+  .logo-text {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,234 @@
+.welcome-to-dayzero-login {
+  position: relative;
+  line-height: 75px;
+  font-weight: 500;
+  font-size: 60px;
+  text-align: center;
+  color: lightgrey;
+  margin-top: -10px;
+}
+
+.divlayout-auth-page {
+  height: 900px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.space {
+  margin-top: 75px;
+}
+
+.ppage-tagmargin {
+  margin-top: 1px;
+  letter-spacing: 17px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+.blueprint-to-brilliance {
+  margin-left: 20px;
+  color: white;
+}
+
+.a-blueprint-engine-container {
+  width: 95%;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 10px;
+  color: rgb(208, 202, 202);
+  font-size: 20px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(21, 21, 21);
+  border-radius: 10px;
+  height: fit-content !important;
+  margin-top: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.create-your-account {
+  color: white;
+  font-size: 27px;
+}
+
+.fill-your-details {
+  color: grey;
+}
+
+.pform-title {
+  margin-top: 30px;
+  color: grey;
+}
+
+.pform-subtitle {
+  margin-top: 17px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 15px;
+  padding-bottom: 40px;
+}
+
+.button1 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 270px;
+  height: 52px;
+  flex-direction: row;
+  padding: var(--padding-sm) 99.41000366210938px var(--padding-sm) 99.94999694824219px;
+  gap: var(--gap-6xs);
+  justify-content: center;
+  align-items: center;
+}
+
+.svg {
+  padding-right: 5px;
+}
+
+.or {
+  color: white;
+}
+
+.span2 {
+  display: flex;
+  justify-content: center;
+}
+
+.divline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #32343a;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input {
+  height: 52px;
+  font-size: 15px;
+  background: transparent;
+  padding: 0 var(--space-4);
+  border: 1px solid #32343a;
+  background-color: black !important;
+  color: white !important;
+  border-radius: 5px;
+  width: 270px;
+  margin: 0 auto;
+  padding-left: 15px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button2 {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(57, 57, 243);
+  border: 1px solid mediumblue;
+  box-sizing: border-box;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: white
+}
+
+.do-you-already-container {
+  color: rgb(157, 154, 154);
+}
+
+.pswitch-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.login {
+  color: rgb(27, 27, 223);
+}
+
+.login:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px) {
+  .divlayout-auth-page {
+    height: auto;
+  }
+
+  .section1 {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .welcome-to-dayzero {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .ppage-tagmargin {
+    font-size: 16px;
+    letter-spacing: 10px;
+    line-height: 20px;
+  }
+
+  .a-blueprint-engine-container {
+    font-size: 16px;
+  }
+
+  .create-your-account {
+    font-size: 20px;
+  }
+
+  .button1 {
+    width: 100%;
+    max-width: unset;
+    padding: 10px 45px;
+  }
+
+  .input {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .button2 {
+    padding: 10px 20px;
+  }
+}
+

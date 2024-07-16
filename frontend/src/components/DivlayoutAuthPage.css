@@ -1,0 +1,173 @@
+
+  .welcome-to-dayzero {
+    position: relative;
+    line-height: 75px;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    color: lightgrey
+  }
+  .divlayout-auth-page-signup {
+    height: 0px;
+  }
+  .section-signup {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .space {
+    margin-top: 75px;
+  }
+  .ppage-tagmargin{
+    margin-top: 1px;
+    letter-spacing: 17px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+  }
+  .blueprint-to-brilliance {
+    margin-left: 20px;
+    color: white;
+  }
+  .a-blueprint-engine-container-signup {
+    width: 95%;
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(208, 202, 202);
+    font-size: 20px;
+  }
+  /* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .section1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(21, 21, 21);
+  border-radius: 10px;
+  height: 500px;
+  margin-top: 50px;
+  width: 500px;
+  height: 600px;
+  }
+  .create-your-account-signup {
+    color: white;
+    font-size: 27px;
+    margin-top: -20px;
+  }
+  .fill-your-details {
+    color: grey;
+  }
+  .form-signup {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+  .pform-title {
+    margin-top: 30px;
+  }
+  .pform-subtitle {
+    margin-top: 17px;
+  }
+
+  .button1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+    width: 380px;
+    height: 52px;
+    flex-direction: row;
+    padding: var(--padding-sm) 99.41000366210938px var(--padding-sm) 99.94999694824219px;
+    gap: var(--gap-6xs);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .svg {
+    padding-right: 5px;
+  }
+
+  .or {
+    color: white;
+  }
+  .span2 {
+    display: flex;
+    justify-content: center;
+  }
+  .divline-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #32343a;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .input {
+    height: 52px;
+    font-size: 15px;
+    color: var(--light-2);
+    background: transparent;
+    padding: 0 var(--space-4);
+    border: 1px solid #32343a;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 380px;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .button2 {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(57, 57, 243);
+    border: 1px solid mediumblue;
+    box-sizing: border-box;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    padding: 13.75px 124.9000015258789px 15.25px 125.0999984741211px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    color: white
+  }
+  .do-you-already-container-signup {
+    color: rgb(157, 154, 154);
+    margin-top: -10px;
+  }
+  .pswitch-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+  }
+  .login {
+    color: rgb(27, 27, 223);
+  }
+  .login:hover {
+    text-decoration: underline;
+  }
+
+  
+ 
+ 

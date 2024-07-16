@@ -1,0 +1,183 @@
+/* Hero section  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, .188);
+  text-decoration: none;
+  color: white;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.nav img {
+  background: none;
+  width: 40px;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.nav .logo {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.logo img {
+  background-color: none;
+}
+
+.head {
+  text-decoration: none;
+}
+
+.link {
+  display: flex;
+  /* width: 20%; */
+  justify-content: center;
+  column-gap: 32px;
+  align-items: center;
+}
+
+.link>* {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  padding: 3px 5px;
+  font-size: 16px;
+}
+
+.link>*:hover {
+  color: gray;
+}
+
+.img-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.img {
+  margin-top: 50px;
+}
+
+.spze {
+  height: 50px;
+}
+
+.bg-overlay {
+  background: url(https://beta.dayzero.vercel.app/_next/static/media/hero-bg.35441d0b.png);
+  text-align: center;
+  background-color: black;
+  background-size: contain;
+  /* height: 700px; */
+  height: max-content;
+}
+
+
+.bg-overlay h1 {
+  color: white;
+  font-size: 80px;
+  letter-spacing: -5px;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.blue-home {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  max-width: 47ch;
+  margin: auto;
+}
+
+.vision {
+  font-size: 16px;
+}
+
+.bg-overlay button {
+  cursor: pointer;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 42px;
+  border: 0.5px solid #b5c7dc;
+  box-shadow: 0 0 20px 0 rgba(181, 199, 220, 0.4);
+}
+
+.bg-overlay .pp {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.spac {
+  margin-top: -10px;
+  color: grey;
+  padding-top: 15px;
+  font-size: 16px;
+
+}
+
+.bg-overlay p .spac {
+  color: grey;
+  font-size: 10px;
+
+}
+
+.img-section {
+  background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.img-section img {
+  width: 75%;
+  height: 75%;
+  background-color: white;
+}
+
+.nav span {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.photo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  /* display: flex; */
+  align-items: end;
+}
+
+.play-icon {
+  position: absolute;
+  cursor: pointer;
+}
+
+.play-icon svg {
+  display: block;
+  /* vertical-align: middle; */
+}
